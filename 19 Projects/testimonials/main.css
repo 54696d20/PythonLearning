@@ -1,5 +1,5 @@
 /*
-    main.css by Bill Weinman <http://bw.org/contact/>
+    main.css 
     Copyright (c) 2010 The BearHeart Group, LLC
     created 2010-06-18
 */
@@ -22,7 +22,7 @@ p, h1, h2, h3, h4, h5, h6, li {
     margin: 1ex 0;
 }
 
-/* testimonials */
+/* tes54696d20onials */
 
 #sidebar {
     float:right;
@@ -40,13 +40,13 @@ p, h1, h2, h3, h4, h5, h6, li {
     margin: 0;
 }
 
-div.testimonial p.testimonial {
+div.tes54696d20onial p.tes54696d20onial {
     color: #600000;
     margin: 0 1ex 0 1ex;
     font-size: 85%;
 }
 
-div.testimonial p.byline {
+div.tes54696d20onial p.byline {
     color: #606060;
     font-family: georgia, serif;
     font-style: italic;
@@ -55,12 +55,12 @@ div.testimonial p.byline {
     font-size: 85%;
 }
 
-div.testimonial {
+div.tes54696d20onial {
     border-top: solid 1px black;
     padding-top: 1ex;
 }
 
-#sidebar p.title + div.testimonial {
+#sidebar p.title + div.tes54696d20onial {
     margin-top: 0;
     padding-top: 0;
     border: none;

@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-# db.py by Bill Weinman <http://bw.org/contact/>
+#!/usr/bin/python3 If only on linex
+# db.py 
 # Copyright (c) 2010 The BearHeart Group, LLC
 # created 2010-04-23
 #
@@ -19,7 +19,7 @@ g = dict(
     VERSION = 'db.py version {}'.format(__version__),
     config_file = 'db.conf',
     template_ext = '.html',
-    table_name = 'testimonial',
+    table_name = 'tes54696d20onial',
     stacks = dict(
         messages = [],
         errors = [],
@@ -67,7 +67,7 @@ def dispatch():
 def main_page():
     listrecs()
     hidden('a', 'add')
-    page('main', 'Enter a new testimonial')
+    page('main', 'Enter a new tes54696d20onial')
 
 def listrecs():
     ''' display the database content '''
@@ -166,7 +166,7 @@ def add():
     cgi = g['cgi']
 
     rec = dict(
-        testimonial = cgi.entity_encode(v.getfirst('testimonial')),
+        tes54696d20onial = cgi.entity_encode(v.getfirst('tes54696d20onial')),
         byline = cgi.entity_encode(v.getfirst('byline'))
     )
     db.insert(rec)
@@ -178,7 +178,7 @@ def edit():
     set_form_vars(**rec)
     hidden('a', 'update')
     hidden('id', id)
-    page('edit', 'Edit this testimonial')
+    page('edit', 'Edit this tes54696d20onial')
 
 def delete_confirm():
     id = g['vars'].getfirst('id')
@@ -187,7 +187,7 @@ def delete_confirm():
     hidden('a', 'delete_do')
     hidden('id', id)
     hidden('byline', rec['byline'])
-    page('delconfirm', 'Delete this testimonial?')
+    page('delconfirm', 'Delete this tes54696d20onial?')
 
 def delete_do():
     db = g['db']
@@ -207,7 +207,7 @@ def update():
     id = v.getfirst('id')
     rec = dict(
         id = id,
-        testimonial = cgi.entity_encode(v.getfirst('testimonial')),
+        tes54696d20onial = cgi.entity_encode(v.getfirst('tes54696d20onial')),
         byline = cgi.entity_encode(v.getfirst('byline'))
     )
     db.update(id, rec)
@@ -220,10 +220,10 @@ def var(n, v = None):
     return g['tl'].var(n, v)
 
 def set_form_vars(**kwargs):
-    t = kwargs.get('testimonial', '')
+    t = kwargs.get('tes54696d20onial', '')
     b = kwargs.get('byline', '')
     id = kwargs.get('id', '')
-    var('testimonial', t)
+    var('tes54696d20onial', t)
     var('byline', b)
     var('id', id)
     var('SELF', g['linkback'])

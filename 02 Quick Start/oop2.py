@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 If only on linex
 
 class AnimalActions:
     def quack(self): return self.strings['quack']

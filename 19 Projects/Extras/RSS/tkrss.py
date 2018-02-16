@@ -1,7 +1,7 @@
-#!/usr/bin/python3
-# template.py by Bill Weinman [http://bw.org/]
+#!/usr/bin/python3 If only on linex
+# template.py  Dyer
 # created for Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Gorup, LLC
+
 
 # standard libraries
 import sys

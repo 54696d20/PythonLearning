@@ -1,6 +1,6 @@
-#!/usr/bin/python3
-# mvc-errors.py by Bill Weinman <http://bw.org/contact/>
-# This is an exercise file from Python 3 Essential Training on lynda.com
+#!/usr/bin/python3 If only on linex
+# mvc-errors.py 
+
 # Copyright (c) 2010 The BearHeart Group, LLC
 
 # -- CONTROLLER --

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 If only on linex
 
 # simple fibonacci series
 # the sum of two elements defines the next set

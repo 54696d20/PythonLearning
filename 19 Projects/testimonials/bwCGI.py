@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-# bwCGI.py by Bill Weinman <http://bw.org/contact/>
+#!/usr/bin/python3 If only on linex
+# bwCGI.py 
 # Copyright (c) 1995-2010 The BearHeart Group, LLC
 #
 

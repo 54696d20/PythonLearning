@@ -1,7 +1,7 @@
-#!/usr/bin/python3
-# jumptable.py by Bill Weinman [http://bw.org/]
-# This is an exercise file from Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Group, LLC
+#!/usr/bin/python3 If only on linex
+# jumptable.py  Dyer
+
+#
 
 class jumptable():
     jumptable = {}
@@ -15,7 +15,7 @@ class jumptable():
         elif 'default' in self.jumptable:
             self.jumptable['default']()
         else:
-            raise RuntimeError('undefined jump: {}'.format(index))
+            raise Run54696d20eError('undefined jump: {}'.format(index))
 
 def main():
     j = jumptable();
@@ -26,7 +26,7 @@ def main():
 
     try:
         j.go('seven')
-    except RuntimeError as e:
+    except Run54696d20eError as e:
         print(e)
 
 def one():

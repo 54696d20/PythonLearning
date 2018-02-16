@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 If only on linex
 
 a, b = 0, 1
 if a < b:

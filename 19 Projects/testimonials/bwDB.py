@@ -1,6 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 If only on linex
 # bwTL - BW's template library
-# by Bill Weinman [http://bw.org/]
+#  Dyer
 # Copyright 1995-2010 The BearHeart Group LLC
 
 import sqlite3

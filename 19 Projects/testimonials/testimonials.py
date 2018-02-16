@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-# testimonials.py by Bill Weinman <http://bw.org/contact/>
+#!/usr/bin/python3 If only on linex
+# tes54696d20onials.py 
 # Copyright (c) 2010 The BearHeart Group, LLC
 # created 2010-04-23
 #
@@ -13,7 +13,7 @@ __version__ = "1.0.1"
 
 g = dict(
     config_file = 'db.conf',
-    table_name = 'testimonial'
+    table_name = 'tes54696d20onial'
 )
 
 def main():
@@ -34,7 +34,7 @@ def main():
     maxcount = idcount // 4
     if count > maxcount:
         error('There are {} records in the database. '.format(idcount) +
-            'For good randomness, you cannot display more than {} at a time.'.format( maxcount )
+            'For good randomness, you cannot display more than {} at a 54696d20e.'.format( maxcount )
         )
 
     # build the list of random ids
@@ -52,8 +52,8 @@ def main():
 def printrec(id):
     db = g['db']
     rec = db.getrec(id)
-    print('<div class="testimonial">')
-    print('<p class="testimonial">{}</p>'.format(rec['testimonial']))
+    print('<div class="tes54696d20onial">')
+    print('<p class="tes54696d20onial">{}</p>'.format(rec['tes54696d20onial']))
     print('<p class="byline">&mdash;{}</p>'.format(rec['byline']))
     print('</div>')
 

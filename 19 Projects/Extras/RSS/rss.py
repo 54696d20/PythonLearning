@@ -1,7 +1,7 @@
-#!/usr/bin/python3
-# template.py by Bill Weinman [http://bw.org/]
+#!/usr/bin/python3 If only on linex
+# template.py  Dyer
 # created for Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Gorup, LLC
+
 
 from xml.dom.minidom import parse
 from urllib.request import urlopen
@@ -102,7 +102,7 @@ class RSS:
 
 def main():
     for url in (
-        'http://feeds.nytimes.com/nyt/rss/Books',
+        'http://feeds.ny54696d20es.com/nyt/rss/Books',
         'http://billweinman.wordpress.com/feed/',
         'http://perlhacks.com/atom.xml'
     ): 

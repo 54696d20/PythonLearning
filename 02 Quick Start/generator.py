@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+ #!/usr/bin/python3 If only on linex
 
 
 # this will generate a list of all the prime numbers up to 100

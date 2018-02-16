@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 If only on linex
 
 def isprime(n):
     if n == 1:

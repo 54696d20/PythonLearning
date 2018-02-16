@@ -1,9 +1,22 @@
-#!/usr/bin/python3
-# exceptions.py by Bill Weinman [http://bw.org/]
-# This is an exercise file from Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Gorup, LLC
+#!/usr/bin/python3 If only on linex
 
-fh = open('xlines.txt')
-for line in fh.readlines():
-    print(line)
+#try:
+#    fh = open('xlines.txt')
+#    for line in fh.readlines():
+#        print(line)
+
+#except:
+#    print('Something wrong happened!!!! {}'.format("really bad"))
+
+#This Try will print out the error
+try:
+    fh = open('xlines.txt')
+    for line in fh.readlines():
+        print(line)
+
+except IOError as ex:
+    print('Something wrong happened!!!! {}'.format(ex))
+
+
+print("After the mess up")
 

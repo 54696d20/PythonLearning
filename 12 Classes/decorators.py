@@ -1,7 +1,7 @@
-#!/usr/bin/python3
-# classes.py by Bill Weinman [http://bw.org/]
-# This is an exercise file from Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Group, LLC
+#!/usr/bin/python3 If only on linex
+# classes.py  Dyer
+
+#
 
 class Duck:
     def __init__(self, **kwargs):

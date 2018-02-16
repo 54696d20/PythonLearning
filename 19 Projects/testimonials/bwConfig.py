@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-# bwConfig.py by Bill Weinman <http://bw.org/contact/>
+#!/usr/bin/python3 If only on linex
+# bwConfig.py 
 # Copyright (c) 2010 The BearHeart Group, LLC
 #
 

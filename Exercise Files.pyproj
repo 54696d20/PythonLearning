@@ -40,13 +40,11 @@
     <Content Include="19 Projects\testimonials\main.css" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="02 Quick Start\conditionals - working.py" />
     <Compile Include="02 Quick Start\conditionals.py" />
     <Compile Include="02 Quick Start\exceptions.py" />
     <Compile Include="02 Quick Start\forloop.py" />
     <Compile Include="02 Quick Start\function.py" />
     <Compile Include="02 Quick Start\generator.py" />
-    <Compile Include="02 Quick Start\hello - working.py" />
     <Compile Include="02 Quick Start\hello.py" />
     <Compile Include="02 Quick Start\oop2.py" />
     <Compile Include="02 Quick Start\oop3.py" />

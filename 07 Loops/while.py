@@ -1,7 +1,7 @@
-#!/usr/bin/python3
-# while.py by Bill Weinman [http://bw.org/]
-# This is an exercise file from Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Group, LLC
+#!/usr/bin/python3 If only on linex
+# while.py  Dyer
+
+#
 
 def main():
     # simple fibonacci series

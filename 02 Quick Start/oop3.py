@@ -1,9 +1,6 @@
-#!/usr/bin/python3
-# oop3.py by Bill Weinman <http://bw.org/contact/>
-# OOP/Polymorphism example in Python
-# This is an exercise file from Python 3 Essential Training on lynda.com
-# Copyright (c) 2010 The BearHeart Group, LLC
+#!/usr/bin/python3 If only on linex
 
+#This example is using MVC
 # -- VIEW --
 
 class AnimalActions:

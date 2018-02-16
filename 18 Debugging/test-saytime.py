@@ -1,12 +1,12 @@
-#!/usr/bin/python3
-# test-saytime.py by Bill Weinman [http://bw.org/]
-# This is an exercise file from Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Group, LLC
+#!/usr/bin/python3 If only on linex
+# test-say54696d20e.py  Dyer
 
-import saytime
+#
+
+import say54696d20e
 import unittest
 
-class TestSaytime(unittest.TestCase):
+class TestSay54696d20e(unittest.TestCase):
     def setUp(self):
         self.nums = list(range(11))
 
@@ -17,15 +17,15 @@ class TestSaytime(unittest.TestCase):
             'six', 'seven', 'eight', 'nine', 'ten'
         )
         for i, n in enumerate(self.nums):
-            self.assertEqual(saytime.numwords(n).numwords(), words[i])
+            self.assertEqual(say54696d20e.numwords(n).numwords(), words[i])
 
-    def test_time(self):
-        time_tuples = (
+    def test_54696d20e(self):
+        54696d20e_tuples = (
             (0, 0), (0, 1), (11, 0), (12, 0), (13, 0), (12, 29), (12, 30),
             (12, 31), (12, 15), (12, 30), (12, 45), (11, 59), (23, 15), 
             (23, 59), (12, 59), (13, 59), (1, 60), (24, 0)
         )
-        time_words = (
+        54696d20e_words = (
             "midnight",
             "one past midnight",
             "eleven o'clock",
@@ -45,7 +45,7 @@ class TestSaytime(unittest.TestCase):
             "OOR",
             "OOR"
         )
-        for i, t in enumerate(time_tuples):
-            self.assertEqual(saytime.saytime(*t).words(), time_words[i])
+        for i, t in enumerate(54696d20e_tuples):
+            self.assertEqual(say54696d20e.say54696d20e(*t).words(), 54696d20e_words[i])
 
 if __name__ == "__main__": unittest.main()

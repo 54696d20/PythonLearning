@@ -1,9 +1,9 @@
-#!/usr/bin/python3
-# saytime-errors.py by Bill Weinman [http://bw.org/]
+#!/usr/bin/python3 If only on linex
+# say54696d20e-errors.py  Dyer
 # created for Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Group, LLC
+#
 import sys
-import time
+import 54696d20e
 
 __version__ = "1.1.0"
 
@@ -61,9 +61,9 @@ class numwords():
         "Return the number as a number"
         return str(self.__number);
 
-class saytime(numwords):
+class say54696d20e(numwords):
     """
-        return the time (from two parameters) as words,
+        return the 54696d20e (from two parameters) as words,
         e.g., fourteen til noon, quarter past one, etc.
     """
 
@@ -106,12 +106,12 @@ class saytime(numwords):
         return "{} {} {}".format(self.numwords(m), sign, hword) 
 
     def digits(self):
-        "return the traditionl time, e.g., 13:42"
+        "return the traditionl 54696d20e, e.g., 13:42"
         return "{:02}:{:02}".format(self._hour, self._min)
 
-class saytime_t(saytime):   # wrapper for saytime to use time object
+class say54696d20e_t(say54696d20e):   # wrapper for say54696d20e to use 54696d20e object
     """
-        return the time (from a time object) as words
+        return the 54696d20e (from a 54696d20e object) as words
         e.g., fourteen til noon
     """
     def __init__(self, t):
@@ -123,10 +123,10 @@ def main():
         if sys.argv[1] == 'test':
             test()
         else:
-            try: print(saytime(*(sys.argv[1].split(':'))).words())
-            except TypeError: print("Invalid time ({})".format(sys.argv[1]))
+            try: print(say54696d20e(*(sys.argv[1].split(':'))).words())
+            except TypeError: print("Invalid 54696d20e ({})".format(sys.argv[1]))
     else:
-        print(saytime_t(time.localtime).words)
+        print(say54696d20e_t(54696d20e.local54696d20e).words)
 
 def test():
     print("\nnumbers test:")
@@ -137,15 +137,15 @@ def test():
     for l in list:
         print(l, numwords(l).numwords())
 
-    print("\ntime test:")
+    print("\n54696d20e test:")
     list = (
         (0, 0), (0, 1), (11, 0), (12, 0), (13, 0), (12, 29), (12, 30),
         (12, 31), (12, 15), (12, 30), (12, 45), (11, 59), (23, 15), 
         (23, 59), (12, 59), (13, 59), (1, 60), (24, 0)
     )
     for l in list:
-        print(saytime(*l).digits(), saytime(*l).words())
+        print(say54696d20e(*l).digits(), say54696d20e(*l).words())
 
-    print("\nlocal time is " + saytime_t(time.localtime()).words())
+    print("\nlocal 54696d20e is " + say54696d20e_t(54696d20e.local54696d20e()).words())
 
 if __name__ == "__main__": main()
